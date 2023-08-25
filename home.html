@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="home-back">
+        <div class="title">
+            Guess The Word
+            <div class="under-line"></div>
+        </div>
+
+        <div class="progress_details">
+            <div id="wordsToGuess">Words to guess</div>
+            <div id="yourscore">Your Score: 0</div>
+            <div id="highscore">High Score: 0</div>
+        </div>
+
+        <div class="word-d">
+            <label id="word-d" name="the-word"></label>
+        </div>
+
+        <div>
+            <input type="text" class="txt-guess" id="txt-field" placeholder="Guess the word">
+            <label id="out-put" name="output">..........</label>
+        </div>
+
+        <div>
+            <input id="btn-Guess" class="buttons" type="button" name="btn-Guess" value="Guess">
+            <input id="new-word" class="buttons" type="button" name="new-word" value="New Word">
+            <input id="hint" class="buttons" type="button" name="hint" value="Hint (2)">
+        </div>
+
+        <div>
+            <input id="newgame" class="buttons" type="button" name="NewGame" value="New Game">
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
